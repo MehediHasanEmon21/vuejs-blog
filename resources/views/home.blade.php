@@ -6,10 +6,13 @@
   <title>AdminLTE 3 | Blank Page</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
+
 <div class="wrapper">
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
@@ -129,6 +132,7 @@
         <div class="card-body">
           Start creating your amazing application!
         </div>
+        <example-component></example-component>
         <!-- /.card-body -->
         <div class="card-footer">
           Footer
@@ -156,9 +160,11 @@
   </aside>
   <!-- /.control-sidebar -->
 </div>
+
+
 <!-- ./wrapper -->
 
-<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
 
